@@ -70,7 +70,7 @@ handleChange={handleChange}
             value={values.password}
             handleChange={handleChange}
             />
-            <button type="submit" className="btn btn-block">Submit</button>
+            <button type="submit" className="btn btn-block" disabled={isLoading}>Submit</button>
             <p> {values.isMember?'Not a member yet':'Already a member?'} 
                 <button type="button" onClick={toggleMember} className="member-btn">
                     {values.isMember?'Register':'Login'}
