@@ -8,5 +8,9 @@ import FormRowSelect from './FormRowSelect'
 import SearchContainer from './SearchContainer'
 import JobsContainer from './JobsContainer'
 import PageBtnContainer from './PageBtnContainer'
-
-export {Logo,FormRow,Navbar,SmallSidebar,BigSidebar,NavLinks,FormRowSelect,SearchContainer,JobsContainer,PageBtnContainer}
+import Loading from './Loading'
+import StatsContainer from './StatsContainer'
+import ChartsContainer from './ChartsContainer'
+import StatItem from './StatItem'
+export {Logo,FormRow,Navbar,SmallSidebar,BigSidebar,NavLinks,FormRowSelect,SearchContainer,JobsContainer,PageBtnContainer,
+    Loading,StatsContainer,ChartsContainer,StatItem}
