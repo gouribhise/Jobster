@@ -21,7 +21,11 @@ const AddJob=()=>{
     }=useSelector((store)=>store.job);
     const {user}=useSelector((store)=>store.user)
     const dispatch=useDispatch()
-
+    useEffect(() => {
+      if (!isEditing) {
+        dispatch(handleChange({ name: 'jobLocation', value: user.location }));
+      }
+    }, []);
     const handleSubmit=(e)=>{
         e.preventDefault()
         if(!position||!company||!jobLocation){
