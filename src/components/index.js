@@ -7,5 +7,6 @@ import NavLinks from './NavLinks'
 import FormRowSelect from './FormRowSelect'
 import SearchContainer from './SearchContainer'
 import JobsContainer from './JobsContainer'
+import PageBtnContainer from './PageBtnContainer'
 
-export {Logo,FormRow,Navbar,SmallSidebar,BigSidebar,NavLinks,FormRowSelect,SearchContainer,JobsContainer}
+export {Logo,FormRow,Navbar,SmallSidebar,BigSidebar,NavLinks,FormRowSelect,SearchContainer,JobsContainer,PageBtnContainer}
