@@ -1,4 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import { clearStoreThunk } from './userThunk';
 import { toast } from 'react-toastify';
 import {
   addUserToLocalStorage,
