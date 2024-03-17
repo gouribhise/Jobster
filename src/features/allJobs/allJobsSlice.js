@@ -74,6 +74,7 @@ const allJobsSlice = createSlice({
         state.isLoading = false;
         toast.error(payload);
       });
+      
   },
 });
 

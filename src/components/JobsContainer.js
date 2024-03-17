@@ -5,7 +5,9 @@ import { useSelector, useDispatch } from 'react-redux';
 import Loading from './Loading';
 import { getAllJobs } from '../features/allJobs/allJobsSlice';
 import PageBtnContainer from './PageBtnContainer';
+
 const JobsContainer = () => {
+  
   const {
     jobs,
     isLoading,
